@@ -1,0 +1,31 @@
+# Diretórios e arquivos gerados automaticamente
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.csproj.user
+*.vs/
+.vscode/
+*.db
+
+# Docker files
+docker/data/
+docker/logs/
+
+# Local config
+.env
+secrets.json
+appsettings.*.json  # Manter apenas appsettings.json de exemplo
+
+# Logs e arquivos temporários
+logs/
+*.log
+*.nlog
+*.out
+*.lock
+temp/
+
+# Arquivos de configuração sensíveis
+appsettings.json
+appsettings.Development.json

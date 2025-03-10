@@ -1,0 +1,11 @@
+{
+    "folders": [
+        {
+            "path": "MoviesApi"
+        },
+        {
+            "path": "MoviesApi.Tests"
+        }
+    ],
+    "settings": {}
+}
