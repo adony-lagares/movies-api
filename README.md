@@ -1,6 +1,6 @@
 # 🎮 Movies API
 
-Movies API é uma API RESTful projetada para gerenciar filmes favoritos.Ela se integra com a **OMDB API** para buscar detalhes de filmes e permite que os usuários autentiquem e gerenciem seus filmes favoritos com segurança.
+Movies API é uma API RESTful projetada para gerenciar filmes favoritos. Ela se integra com a **OMDB API** para buscar detalhes de filmes e permite que os usuários autentiquem e gerenciem seus filmes favoritos com segurança.
 
 ---
 
