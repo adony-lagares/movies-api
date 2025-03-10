@@ -90,21 +90,27 @@ Assim a API poderá buscar detalhes de filmes diretamente da OMDB API.
 ## 🔧 Executando o Projeto Localmente
 
 ### 1️⃣ Instalando Dependências
-dotnet restore
-
+   ```bash
+  dotnet restore
+   ```
 ### 2️⃣ Aplicando Migrações do Banco de Dados
+   ```bash
 dotnet ef database update
+   ```
 (Em caso de erro ' No executable found matching command "dotnet-ef" ') executar comando: dotnet tool install --global dotnet-ef e tentar novamente.
 
 ### 3️⃣ Executando a API
+   ```bash
 dotnet run
-
+   ```
 ---
 
 ## 🔧 Executando o Projeto com Docker
 
 ### 1️⃣ Construindo e Executando os Containers
+   ```bash
 docker-compose up --build
+   ```
 
 Isso iniciará a API, o banco de dados e os serviços adicionais.
 
@@ -113,16 +119,18 @@ Isso iniciará a API, o banco de dados e os serviços adicionais.
 - Swagger UI: http://localhost:5000/swagger
 
 ### 3️⃣ Parando os Containers
+   ```bash
 docker-compose down
-
+   ```
 ### 4️⃣ Visualizando Logs em Tempo Real
+   ```bash
 docker-compose logs -f
-
+   ```
 ---
 
-## 📊 Monitoring and Health Checks
+## 📊 Monitoramento de saúde da API.
 
-Health checks are available at:
+Realizar o Health Check:
 
 ```
 http://localhost:5000/health
